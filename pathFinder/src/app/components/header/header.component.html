@@ -1,0 +1,22 @@
+<div class="container">
+
+    <form [formGroup]="formAlgos">
+        <select formControlName="algo">
+            <option *ngFor="let algo of algos" [ngValue]="algo">
+                {{ algo.name }}
+            </option>
+        </select>
+    </form>
+
+    <form [formGroup]="formSpeed">
+        <select formControlName="speed">
+            <option *ngFor="let speed of speeds" [ngValue]="speed">
+                {{ speed.name }}
+            </option>
+        </select>
+    </form>
+
+    <button (click)="go()" [disabled]="this.gridService.mouse.processing">GO</button>
+    <button (click)="this.gridService.reset()" [disabled]="this.gridService.mouse.processing">Reset Map</button>
+    <button (click)="this.gridService.clean()" [disabled]="this.gridService.mouse.processing">Reset Path</button>
+</div>

@@ -1,0 +1,79 @@
+.node {
+    width: 20px;
+    height: 20px;
+}
+
+.basic {
+    background-color: white;
+    border: rgb(0, 183, 255);
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.start {
+    background-color: white;
+    background: url(src/assets/start-button.png) no-repeat;
+    border: rgb(0, 183, 255);
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.end {
+    background-color: white;
+    background: url(src/assets/flag.png) no-repeat;
+    border: rgb(0, 183, 255);
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.wall {
+    background-color: black;
+    border: black;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.visiting {
+    background-color: blue;
+    border: blue;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.visited {
+    background-color: green;
+    border: green;
+    border-width: 0.5px;
+    border-style: solid;
+}
+.path {
+    background-color: yellow;
+    border: yellow;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.startPr {
+    background: url(src/assets/start-button.png) no-repeat;
+    background-color: greenyellow;
+    border: greenyellow;
+    border-width: 0.5px;
+    border-style: solid;
+
+}
+
+.startPa {
+    background: url(src/assets/start-button.png) no-repeat;
+    background-color: yellow;
+    border: yellow;
+    border-width: 0.5px;
+    border-style: solid;
+}
+
+.endPa {
+    background: url(src/assets/flag.png) no-repeat;
+    background-color: yellow;
+    border: yellow;
+    border-width: 0.5px;
+    border-style: solid;
+}
